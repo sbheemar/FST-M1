@@ -7,11 +7,15 @@ public class Car {
     String transmission;
     int tyres;
     int doors;
+    float weight;
+   
 	
     //Constructor
     Car() {
 	tyres = 4;
 	doors = 4;
+	weight = (float) 1200.01;
+
     }
 
     //Class Methods
@@ -20,7 +24,8 @@ public class Car {
 	System.out.println("Make of the Car: " + make);
 	System.out.println("Transmission of the Car: " + transmission);
 	System.out.println("Number of doors on the car: " + doors);
-    	System.out.println("Number of tyres on the car: " + tyres);
+    System.out.println("Number of tyres on the car: " + tyres);
+    System.out.println("Weight of the car: "+ weight);
     }
 
     public void accelerate() {
