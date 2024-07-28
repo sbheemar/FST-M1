@@ -29,8 +29,8 @@ public class Activity4 {
         UiAutomator2Options options = new UiAutomator2Options();
         options.setPlatformName("android");
         options.setAutomationName("UiAutomator2");
-        options.setAppPackage("com.motorola.launcher3");
-        options.setAppActivity("com.android.launcher3.CustomizationPanelLauncher");
+        options.setAppPackage("com.google.android.contacts");
+        options.setAppActivity("com.android.contacts.activities.PeopleActivity");
         options.noReset();
 
         // Server Address
